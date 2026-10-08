@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def health():
-    return "ok", 200
+    return "ok...", 200
 
 
 @app.route("/crash")
